@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+
+  app:
+    restart: "unless-stopped"
+    build:
+      context: .
+    volumes:
+      - ./yt-dlp_data:/data
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50k"
