@@ -7,8 +7,8 @@ Simple Docker-container with yt-dlp inside, it has a self-updating logic.
 Clone repository:
 
 ```shell
-git clone https://github.com/EvilFreelancer/yt-dpl-app.git
-cd yt-dpl-app
+git clone https://github.com/EvilFreelancer/yt-dlp-app.git
+cd yt-dlp-app
 ```
 
 Build and run:
